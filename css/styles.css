@@ -1,0 +1,102 @@
+/************DIV SELECTORS**********/
+/************TAG SELECTORS**********/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  color: #738598;
+}
+
+h1 {
+  font-size: 562.5%;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Molle', cursive;
+  color: #4c8492;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #4c8492;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #4c8492;
+}
+
+hr {
+  border-width: 5px;
+  border-color: #309286;
+  border-style: none;
+  border-top-style: dotted;
+  width: 50%;
+}
+
+a {
+  color: #8186d5;
+}
+
+/************CLASS SELECTORS**********/
+.top-container {
+  background-color: #fffde8;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #f09c67;
+  width: 100%;
+}
+
+.bottom-container {
+  background-color: #f7e0a3;
+  width: 100%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.edu-img {
+  height: 100px;
+  width: 100px;
+}
+
+.skills-img {
+  height: 100px;
+  width: 100px;
+}
+
+.contact-img {
+  height: 100px;
+  width: 100px;
+}
+
+.work-img {
+  height: 100px;
+  width: 100px;
+}
+
+/************ID SELECTORS**********/
+#contact {
+  margin-top: 100px;
+}
+/************PSEUDO SELECTORS**********/
+a:link {
+  text-decoration: none;
+  color: #4c8492;
+}
+
+a:hover {
+  color: #f09c67;
+}
