@@ -24,6 +24,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   color: #4c8492;
+  font-weight: bold;
 }
 
 hr {
@@ -89,7 +90,10 @@ a {
 
 /************ID SELECTORS**********/
 #contact {
-  margin-top: 100px;
+  padding-top: 30px;
+}
+#copyr{
+  padding-bottom: 30px;
 }
 /************PSEUDO SELECTORS**********/
 a:link {
