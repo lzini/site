@@ -1,4 +1,11 @@
 /************DIV SELECTORS**********/
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
 /************TAG SELECTORS**********/
 body {
   margin: 0;
@@ -18,6 +25,7 @@ h2 {
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
   color: #4c8492;
+  font-weight: normal;
 }
 
 h3 {
@@ -87,14 +95,31 @@ a {
   height: 100px;
   width: 100px;
 }
+.html-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+.css-img{
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.js-img{
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
 
 /************ID SELECTORS**********/
 #contact {
   padding-top: 30px;
 }
-#copyr{
+
+#copyr {
   padding-bottom: 30px;
 }
+
 /************PSEUDO SELECTORS**********/
 a:link {
   text-decoration: none;
